@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.ikincihisse{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: initial;
+}
+.main{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    justify-content: left;
+}
+
+.main_1{
+    width: 60px;
+    height: 15px;
+    background-color: rgb(159, 223, 167);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 20px;
+    background-color: #e3eaa7;
+    color: #ff7b25;
+}
+.main_2{
+    width: 400px;
+    height: 250px;
+}
+.main_3{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.button{
+    border-color: rgb(8, 8, 61);
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #150d64;
+    color: white;
+    gap: 10px;
+    
+}
+.button1{
+    border-color: blue;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: #0080FF;
+    
+}
+.download{
+    border-color: blue;
+    width: 150px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(34, 5, 139);
+    color: #0080FF;
+
+}
+.foto{
+    width: 400px;
+    height: 450px;
+    justify-content: left;
+    align-items: start;
+    display: flex;
+    
+    
+    
+}
+
+
+.started{
+    width: 100%;
+    height: 200px;
+    font-size: large;
+    color: rgb(5, 5, 56);
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.started div {
+    width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.taskbar{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items:center;
+    justify-content:space-evenly;
+    gap: 100px;
+    display: flex;
+}
+
+.about{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    
+}
+.abouts {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+.about4{
+width: 220px;
+height: 50px;
+flex-direction: column;
+gap: 40px;
+display: flex;
+
+}
+
+.about2{
+    width: 600px;
+    height: 400px;
+}
+.about3{
+    width: 450px;
+    height: 300px;
+}
+.aboutbutton{
+    width: 100px;
+    height: 50px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 40px;
+    background-color: rgb(9, 9, 114);
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.servicemain1{
+    width: 65px;
+    height: 20px;
+    background-color: rgb(159, 223, 167);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 20px;
+    background-color: #e3eaa7;
+    color: #ff7b25;
+}
+
+
+.bolme1{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items:center;
+    justify-content:space-evenly;
+    gap: 100px;
+    display: flex;
+    
+}
+.bolme2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items:center;
+    justify-content:space-evenly;
+    gap: 100px;
+    display: flex;
+}
+.bolme3{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items:center;
+    justify-content:space-evenly;
+    gap: 100px;
+    display: flex;
+}
+
+.wordicon1{
+   
+    width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wordicon2{
+    width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wordicon3{
+    width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wordicon4{
+    width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wordicon5{
+    width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wordicon6{
+width: 100%;
+    height: 80px;
+    color: rgb(6, 6, 49);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
